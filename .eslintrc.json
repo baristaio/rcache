@@ -1,0 +1,23 @@
+
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "es7": true, // Added support for ECMAScript 7
+        "es2017": true, // Added support for ECMAScript 2017
+        "es2018": true, // Added support for ECMAScript 2018
+        "es2019": true, // Added support for ECMAScript 2019
+        "es2020": true, // Added support for ECMAScript 2020
+        "es2021": true, // Added support for ECMAScript 2021
+        "es2022": true, // Added support for ECMAScript 2022
+        "es2023": true, // Added support for ECMAScript 2023
+        "es2024": true // Added support for ECMAScript 2024
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "indent": ["error", 2],
+        "linebreak-style": ["error", "unix"],
+        "quotes": ["error", "double"],
+        "semi": ["error", "always"]
+    }
+}
