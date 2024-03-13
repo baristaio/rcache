@@ -137,3 +137,4 @@ dist
 .idea/*
 
 *.env
+.DS_Store
