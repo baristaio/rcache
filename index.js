@@ -1,1 +1,1 @@
-exports = module.exports = require('./src/RCache.js');
+exports = module.exports = require('./lib/RCache.js');

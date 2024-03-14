@@ -1,6 +1,6 @@
 {
-  "name": "rcache",
-  "version": "1.0.0-alfa",
+  "name": "@baristaio/rcache",
+  "version": "1.0.2-alfa",
   "description": "The keys manager by group of keys in Redis cache. It allows to manage the keys by group of keys",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "Vadim-ri",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "eslint": "^8.57.0",
     "eslint-config-airbnb-base": "^15.0.0",
@@ -20,5 +20,18 @@
   },
   "dependencies": {
     "redis": "^4.6.13"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baristaio/rcache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baristaio/rcache/issues"
+  },
+  "homepage": "https://github.com/baristaio/rcache#readme"
 }
