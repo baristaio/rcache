@@ -1,15 +1,17 @@
 {
-  "name": "@baristaio/rcache",
-  "version": "1.0.2-alfa",
+  "name": "@developers/rcache",
+  "version": "1.0.3-alfa",
   "description": "The keys manager by group of keys in Redis cache. It allows to manage the keys by group of keys",
   "main": "index.js",
   "scripts": {
     "run": "node index.js",
     "lint": "eslint . --ext .js",
-    "lint:fix": "eslint . --ext .js --fix"
+    "lint:fix": "eslint . --ext .js --fix",
+    "test": "jest ./tests",
+    "coverage": "jest --coverage ./tests"
   },
   "keywords": [],
-  "author": "Vadim-ri",
+  "author": "vadimri",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.57.0",
