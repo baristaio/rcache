@@ -5,6 +5,7 @@
         "sourceType": "module"
     },
     "env": {
+        "jest": true,
         "node": 1,
         "es6": true,
         "es2015": true, // Added support for ECMAScript 2015
