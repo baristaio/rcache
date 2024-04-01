@@ -1,9 +1,13 @@
 
 {
+    "parserOptions": {
+        "ecmaVersion": 2024,
+        "sourceType": "module"
+    },
     "env": {
-        "browser": true,
+        "node": 1,
         "es6": true,
-        "es7": true, // Added support for ECMAScript 7
+        "es2015": true, // Added support for ECMAScript 2015
         "es2017": true, // Added support for ECMAScript 2017
         "es2018": true, // Added support for ECMAScript 2018
         "es2019": true, // Added support for ECMAScript 2019
@@ -15,9 +19,11 @@
     },
     "extends": "eslint:recommended",
     "rules": {
+        "quotes": [2, "single", { "avoidEscape": true }],
+        "quotes": ["error", "single", { "avoidEscape": true }],
         "indent": ["error", 2],
         "linebreak-style": ["error", "unix"],
-        "quotes": ["error", "double"],
         "semi": ["error", "always"]
     }
 }
+

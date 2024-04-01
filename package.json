@@ -1,6 +1,6 @@
 {
-  "name": "@developers/rcache",
-  "version": "1.0.3-alfa",
+  "name": "@baristaio/rcache",
+  "version": "1.0.4-beta",
   "description": "The keys manager by group of keys in Redis cache. It allows to manage the keys by group of keys",
   "main": "index.js",
   "scripts": {
