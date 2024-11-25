@@ -1,13 +1,14 @@
 {
   "name": "@baristaio/rcache",
-  "version": "1.0.4-beta",
+  "version": "0.0.1-RC.1",
   "description": "The keys manager by group of keys in Redis cache. It allows to manage the keys by group of keys",
   "main": "index.js",
   "scripts": {
     "run": "node index.js",
     "lint": "eslint . --ext .js",
     "lint:fix": "eslint . --ext .js --fix",
-    "test": "jest ./tests",
+    "test": "jest --coverage ./lib/",
+    "integration": "jest coverage ./tests",
     "coverage": "jest --coverage ./tests"
   },
   "keywords": [],
